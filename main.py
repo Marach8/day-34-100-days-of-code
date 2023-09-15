@@ -12,7 +12,7 @@ def prettyPrint():
 
 while True:
   print("SPAMMER Inc.")
-  menu = input("1. Add email\n2: Remove email\n3. Show emails\n4. Get SPAMMING\n> ")
+  menu = input("1. Add email.\n2: Remove email\n3. Show emails\n4. Get SPAMMING\n> ")
   if menu == "1":
     email = input("Email > ")
     listOfEmail.append(email)
